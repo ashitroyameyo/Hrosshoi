@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ember" data-motion="on">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HROSSHO I · Music, art, food and community in Dhaka</title>
+  <meta name="description" content="A space for music, art, food, and finding your people. Dhaka, Bangladesh.">
+  <meta name="theme-color" content="#0a0707">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500;1,700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Saira+Extra+Condensed:wght@600;800;900&family=Tiro+Bangla&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try { var t = localStorage.getItem("hrossho:theme"); if (t === "ember" || t === "blood") document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+
+<!-- Shared flame glyph -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="flame" viewBox="0 0 181 971">
+    <path fill="currentColor" fill-rule="evenodd" d="M109.3 967.5C108.9 966.8 109.9 965 113.6 959.4C126.3 940.5 136 919.4 141.5 898.8C141.8 897.6 142.3 895.9 142.5 895C145 886 147.2 872.3 148.2 860.8C149.1 849.5 148.7 828.2 147.4 819.2C146.1 810.9 143.3 800.8 140 793C139.6 792 139.1 790.8 139 790.5C138.7 789.6 137 785.9 134.9 781.7C124.3 760.7 107.6 740.4 86.2 723C77.6 716 72.3 712.2 57.8 702.7C32.3 686.1 13.6 667 6.5 650.4C6.1 649.4 5.6 648.4 5.5 648.1C4.8 646.6 3.2 641.1 2.7 638.3C1.8 632.8 2.2 626.1 3.7 622C6.3 614.7 8 612.1 14.6 606C17.1 603.7 21 600.1 23.4 597.9C25.7 595.7 30 591.7 32.9 589C35.8 586.3 40 582.3 42.4 580.1C44.7 577.9 48.2 574.7 50.1 572.9C53.4 569.9 57.5 566.1 62.8 561.1C63.9 560 65.6 558.5 66.5 557.6C69 555.3 78.6 546.4 81.1 544C83.9 541.4 88.9 536.7 94 532C96.1 530 98.7 527.6 99.8 526.6C100.8 525.7 103.3 523.4 105.2 521.5C111.3 515.9 114.2 512.7 117 508.4C118.3 506.3 121.4 500.2 122.1 498.2C123.9 493.1 124.7 490.2 125.6 485C128.2 469.8 125 451.1 118 440.8C116.5 438.4 114.4 436.1 114 436.4C113.9 436.5 113.7 437.3 113.7 438.5C113.7 440.6 113 445.4 112.4 447.6C111.4 451 109.6 456.1 108.5 458.6C103.2 470.8 95.5 483.8 84.5 499.3C79.3 506.7 67.6 521.8 66.7 522.3C65.8 522.9 56.6 516.1 49.3 509.4C35.7 497.1 26.4 482.9 22.7 469.1C20.6 461.2 20.3 451.6 21.8 445.5C22.9 441 24.9 434.9 26.5 431.4C26.6 431.1 27.1 430 27.5 429C30.3 422.5 38.2 407.8 43.3 399.4C44.1 398.1 45.3 396.2 46 395C52.8 383.5 68.4 360.9 81.9 343C87.3 335.8 88.1 334.6 89.8 330.9C95 319.9 95.2 308 90.4 293.4C88.5 287.8 85 279.9 82 274.6C81.7 274.1 81.1 273 80.7 272.2C77 265.5 69 253.6 61.3 243.5C59 240.6 58.2 239.5 54.4 234.6C53.6 233.5 49.7 228.7 45.9 223.9C34.8 210 29.5 202.6 24.2 193.8C19 185 13.7 174.3 11 166.9C10.7 166.2 10.3 165 10 164.2C7.5 157.9 5.4 150 3.6 140.6C1.9 131.5 1.9 116.5 3.7 109C4.6 105 5.2 102.8 6.5 98.1C7.4 95.4 8.2 92.5 8.5 91.8C8.8 91.1 9.2 89.9 9.5 89.2C15.8 71.7 24.8 54.4 35.2 39.7C46.5 24 64.4 2.3 65.4 3.3C65.7 3.6 65.2 4.5 63.8 6.4C57.6 15.1 49.9 27 46 33.9C45.7 34.4 45.3 35.2 45 35.7C43.8 37.7 40.2 45 39 47.6C32.5 62.4 29.4 76.2 29.1 91.1C28.9 100.5 29.5 106.1 31.5 115.5C33.3 123.5 37 133.4 41.4 141.7C42.9 144.5 44 146.4 47.3 151.8C48.2 153.4 55.9 164.8 57.8 167.5C61.5 172.8 70.4 184.9 75.8 191.7C97.5 219.7 101 224.4 107.1 233.6C114.3 244.6 118.2 252 121.5 260.8C124.7 269.5 125.7 279.6 124.3 288.3C122.3 301 117.5 312.1 108.8 325C106.7 328.1 106.3 328.6 104.5 331.1C104 331.8 102.7 333.6 101.7 335C100.6 336.4 98.3 339.6 96.5 342.1C90.9 349.7 89.9 351.6 90.5 353.5C91 355.1 96.2 360.3 104.5 367.5C105.7 368.5 112.5 374 119.6 379.7C142.5 398 146.5 401.6 151.1 408.6C156.9 417.3 158.8 423.5 160.3 438.1C162.3 457.9 158.4 474.3 148.6 488.2C144.4 494.1 140.9 497.6 122 514.9C117.7 518.8 113 523.1 111.6 524.4C109.5 526.4 101.9 533.2 88.4 545.5C86.3 547.3 83.9 549.6 83 550.4C81.4 551.8 75.7 557 72.3 560.1C69.1 563 53.3 577.4 51.4 579.2C46 584.3 42.2 587.9 41.9 588C41.8 588.1 40.1 589.8 38.1 591.8C33.8 596 33.2 597 32.7 600.7C31.7 609 35.1 618.7 41.7 627.1C46.2 632.8 50.8 636.9 58.9 642.6C61.3 644.4 62.3 645.1 67 648.3C68.3 649.2 70.2 650.5 71.2 651.2C72.3 651.9 74 653.2 75.1 653.9C76.2 654.7 78.5 656.2 80.1 657.4C81.8 658.6 83.4 659.7 83.8 659.9C88.6 663.3 101.2 672.8 107.2 677.6C118.2 686.4 124.9 692.4 134.5 702C146.1 713.6 152.8 721.6 160.1 732.6C163.8 738.2 168.4 746.6 170.5 751.6C171.8 754.8 172.3 755.9 173 757.8C175.5 764.9 177.4 772.5 178 778.9C178.4 782.2 178.3 791.9 178 795.4C177.1 804.8 173.8 817 167.5 834.8C166.3 838 165.4 840.7 164.9 842.1C164.7 842.7 164.1 844.4 163.5 846C162.9 847.6 162.3 849.3 162.1 849.9C161.9 850.4 161.2 852.5 160.5 854.5C159.1 858.5 151.8 880.1 149.8 886.2C148.4 890.4 145.9 897.8 144.9 900.6C144.5 901.6 144.1 902.8 143.9 903.4C143.7 903.9 143.3 905 143 905.8C142.7 906.5 142.3 907.5 142.2 907.9C141.8 908.9 139.8 914.3 139.5 914.9C139.4 915.1 138.7 916.7 138.1 918.2C137.5 919.8 136.8 921.5 136.6 921.9C128.6 940.1 123.4 949.9 115.7 961.4C111.6 967.5 110 969 109.3 967.5ZM84.1 467.2C84.1 463.6 83.9 459.6 83.8 458.2C83.6 456.9 83.3 454.3 83.1 452.4C82.6 447.8 81.5 440.6 80.1 434C77.5 420.6 71.2 408 63.1 399.4C62.2 398.5 61.3 397.8 61.1 397.8C60.6 397.8 59.7 399.3 57.9 403.1C53.8 411.6 52.2 417.6 52.3 424.5C52.3 429.6 52.8 433 54.5 438.1C58.4 449.7 68.2 462.3 81.1 472.5C84.3 474.9 84.1 475.2 84.1 467.2Z"/>
+  </symbol>
+</svg>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="glow" id="glow" aria-hidden="true"></div>
+<div class="grain-layer" aria-hidden="true"></div>
+<div class="ghost-flame" aria-hidden="true"><svg viewBox="0 0 181 971"><use href="#flame"/></svg></div>
+
+<header class="site-header">
+  <a href="#main" class="skip">Skip to content</a>
+  <div class="gutter bar">
+    <a class="brand display" href="#top">HROSSHO I<span class="sr">, home</span></a>
+    <nav aria-label="Main" class="nav" id="nav">
+      <a class="link-draw" href="#programme">What’s on</a>
+      <a class="link-draw" href="#table">Table</a>
+      <a class="link-draw" href="#journal">Journal</a>
+      <a class="link-draw" href="#space">The space</a>
+      <a class="link-draw" href="#about">About</a>
+      <button class="meta theme-btn" id="themeBtn" type="button" aria-label="Switch colour theme"><span class="dot"></span><span id="themeLabel">Blood mode</span></button>
+      <a class="cta-link" href="#contact">Get in touch ↗</a>
+    </nav>
+    <button class="meta menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+  </div>
+</header>
+
+<main id="main">
+  <!-- MASTHEAD -->
+  <div class="gutter masthead-wrap" id="top">
+    <h1 class="display masthead" id="masthead" aria-label="Hrossho i"><span aria-hidden="true">HROSSHO <em>I</em></span></h1>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="gutter hero-top">
+      <div class="hero-place">
+        <svg viewBox="0 0 181 971" class="mini-flame" aria-hidden="true"><use href="#flame"/></svg>
+        <p class="meta">Dhaka,<br>Bangladesh<span class="rule"></span></p>
+      </div>
+      <p class="hero-lede">A space for music, art, food, and finding your people.</p>
+    </div>
+
+    <div class="hero-visual gutter">
+      <div class="photo photo-main ph ph-garden" role="img" aria-label="The Hrossho i pavilion seen from the garden: brick walls and tall glass doors open onto a lit gallery, under palm fronds">
+        <span class="ph-tag meta">Photo · the garden pavilion</span>
+      </div>
+      <div class="photo photo-portrait ph ph-singer" role="img" aria-label="Portrait of a singer cupping the microphone, looking up into the light" data-parallax="-30">
+        <span class="ph-tag meta">Photo · the singer</span>
+      </div>
+
+      <a class="badge" href="#programme" aria-label="Come through: see what’s on">
+        <svg viewBox="0 0 200 200" aria-hidden="true">
+          <defs><path id="circ" d="M100,100 m-76,0 a76,76 0 1,1 152,0 a76,76 0 1,1 -152,0"/></defs>
+          <text class="badge-text"><textPath href="#circ" startOffset="0" textLength="470" lengthAdjust="spacing">COME THROUGH · HROSSHO I · </textPath></text>
+        </svg>
+        <span class="badge-arrow">→</span>
+      </a>
+
+      <button class="press" id="pressBtn" type="button" aria-pressed="false" aria-label="Do not press (sets the room on fire)">
+        <span class="press-cap"><span class="press-dome"></span></span>
+        <span class="meta press-label">do not press</span>
+      </button>
+
+      <a class="next-up meta" href="#programme"><span class="live-dot">●</span> Next: Collective jam · Sat 17 Oct <span class="mute">(demo)</span> <span class="countdown" id="countdown"></span> ↗</a>
+    </div>
+
+    <div class="gutter hero-title-wrap">
+      <h2 id="hero-title" class="hero-title">
+        <span class="display line-a reveal">A little</span>
+        <span class="voice line-b reveal">out of the ordinary<span class="red">.</span></span>
+      </h2>
+      <p class="hero-sub reveal">Hrossho i is an independent cultural house in Dhaka. Come for a gig, a screening, a supper or a long conversation, and stay because someone you hadn’t met yet made the night better.</p>
+      <div class="hero-actions reveal">
+        <a class="btn btn-solid" href="#programme">See what’s on <span aria-hidden="true">→</span></a>
+        <a class="link-draw big-link" href="#space">Make room for your idea ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker" aria-label="Music, art, food, healing, community.">
+    <div class="ticker-track" id="tickerTrack">
+      <div class="ticker-set display">
+        <a href="#programme"><span class="en">Music</span><span class="bn" lang="bn">গান</span></a><i>↗</i>
+        <a href="#programme"><span class="en">Art</span><span class="bn" lang="bn">শিল্প</span></a><i>↗</i>
+        <a href="#table"><span class="en">Food</span><span class="bn" lang="bn">খাবার</span></a><i>↗</i>
+        <a href="#programme"><span class="en">Healing</span><span class="bn" lang="bn">নিরাময়</span></a><i>↗</i>
+        <a href="#contact"><span class="en">Community</span><span class="bn" lang="bn">আড্ডা</span></a><i>↗</i>
+      </div>
+    </div>
+    <button class="meta ticker-pause" id="tickerPause" type="button" aria-pressed="false">Pause motion</button>
+  </div>
+
+  <!-- NUMBERS -->
+  <section class="gutter numbers" aria-label="Hrossho i at a glance">
+    <div class="num reveal"><b class="display" data-count="14">0</b><span class="meta">Seats at the long table</span></div>
+    <div class="num reveal"><b class="display" data-count="5">0</b><span class="meta">Kinds of nights: music, art, food, healing, words</span></div>
+    <div class="num reveal"><b class="display" data-count="2">0</b><span class="meta">Cities: Dhaka and New York</span></div>
+    <div class="num reveal"><b class="display" data-count="100" data-suffix="%">0</b><span class="meta">Independent and community-run</span></div>
+  </section>
+
+  <!-- PROGRAMME -->
+  <section class="gutter programme" id="programme" aria-labelledby="programme-title">
+    <div class="prog-side">
+      <div class="sticky">
+        <p class="meta eyebrow">The programme <span class="rule-flex"></span></p>
+        <h2 class="display giant" id="programme-title">Come<br>for<br>this<span class="red">.</span></h2>
+        <p class="meta note">Rows marked demo show formats we run. They are not confirmed dates yet.</p>
+        <div class="chips" role="group" aria-label="Filter events">
+          <button class="chip is-on" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="music" type="button">Music</button>
+          <button class="chip" data-filter="food" type="button">Food</button>
+          <button class="chip" data-filter="words" type="button">Words</button>
+        </div>
+      </div>
+    </div>
+    <div class="prog-list">
+      <article class="event tilt" data-cat="music">
+        <div class="thumb ph ph-guitar" role="img" aria-label="A young musician sits cross-legged on a rug, playing electric guitar into a microphone"></div>
+        <div class="event-body">
+          <p class="meta"><span>Music</span><time datetime="2026-10-17T17:00+06:00">Sat, 17 Oct 2026 · 5:00 pm – 8:00 pm</time><span class="demo" title="Example content, not a confirmed event">Demo</span></p>
+          <h3 class="display"><a href="#contact">Collective jam</a></h3>
+          <p class="event-desc">An open floor for players of every level. Bring an instrument or just bring ears.</p>
+          <p class="meta price">Free</p>
+        </div>
+        <span class="event-arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="event tilt" data-cat="food music">
+        <div class="thumb ph ph-dish" role="img" aria-label="A dish crowned with grated cheese, poster titled Eating with Strangers"></div>
+        <div class="event-body">
+          <p class="meta"><span>Food · Music</span><time datetime="2026-10-23T14:00+06:00">Fri, 23 Oct 2026 · 2:00 pm – 5:30 pm</time><span class="demo">Demo</span></p>
+          <h3 class="display"><a href="#table">Eating with strangers</a></h3>
+          <p class="event-desc">Shared plates, curated sound, and a seat next to someone you haven’t met yet.</p>
+          <p class="meta price">Price on ticket page</p>
+        </div>
+        <span class="event-arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="event tilt" data-cat="words">
+        <div class="thumb ph ph-poet" role="img" aria-label="A reader in pink sits on a cushion reading from a phone into a microphone"></div>
+        <div class="event-body">
+          <p class="meta"><span>Words</span><time datetime="2026-11-06T17:00+06:00">Fri, 6 Nov 2026 · 5:00 pm</time><span class="demo">Demo</span></p>
+          <h3 class="display"><a href="#contact">Writers’ meet</a></h3>
+          <p class="event-desc">Poems, prose and works in progress read aloud to a room that listens.</p>
+          <p class="meta price">RSVP</p>
+        </div>
+        <span class="event-arrow" aria-hidden="true">→</span>
+      </article>
+      <p class="empty meta" id="emptyMsg" hidden>Nothing in this category yet. Check back soon.</p>
+      <div class="more"><a class="link-draw red-link" href="#contact">Explore everything on ↗</a></div>
+    </div>
+  </section>
+
+  <!-- TABLE -->
+  <section class="table-sec" id="table" aria-labelledby="table-title">
+    <div class="table-photo ph ph-snacks" role="img" aria-label="Fried snacks stacked on a banana leaf">
+      <span class="ph-tag meta">Photo · What is Table?</span>
+    </div>
+    <div class="table-copy gutter-r">
+      <p class="meta mute-d">Hrossho i Table<br>a supper club by Chef Inara<span class="rule light"></span></p>
+      <div>
+        <h2 class="display giant2" id="table-title">Take<br>a seat<span class="red">.</span></h2>
+        <p class="lead">Fourteen seats. One long table. A seasonal tasting menu by Chef Inara, curated sound, and the people you haven’t met yet.</p>
+        <ul class="ticks">
+          <li>Seasonal menu, cooked in front of you</li>
+          <li>A playlist chosen for the meal, not for the algorithm</li>
+          <li>Seated together, so conversation starts by itself</li>
+        </ul>
+        <a class="btn btn-outline" href="#contact">At the Hrossho i Table <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNAL -->
+  <section class="gutter journal" id="journal" aria-labelledby="journal-title">
+    <div class="sec-head">
+      <h2 class="display huge" id="journal-title">Journal</h2>
+      <a class="link-draw" href="#contact">Stories, recaps, publications ↗</a>
+    </div>
+    <div class="j-grid">
+      <article class="j-card j-lead tilt">
+        <div class="ph ph-lamp j-img" role="img" aria-label="Boga Taleb playing in warm lamplight"></div>
+        <p class="meta"><span class="tag">Story</span><time datetime="2026-08-03">3 August 2026</time></p>
+        <h3 class="display"><a href="#journal">The songs that almost disappeared</a></h3>
+        <p class="j-excerpt">Boga Taleb has spent years walking between ashrams in both Bengals, collecting songs no one else remembers.</p>
+      </article>
+      <article class="j-card j-second tilt">
+        <div class="ph ph-plating j-img" role="img" aria-label="Plating small dishes at the first Hrossho i Table"></div>
+        <p class="meta"><span class="tag">Recap</span><time datetime="2026-07-20">20 July 2026</time></p>
+        <h3 class="display"><a href="#journal">The first Table</a></h3>
+      </article>
+      <article class="j-card j-quote">
+        <p class="meta"><span class="tag">Recap</span><time datetime="2026-04-29">29 April 2026</time></p>
+        <h3 class="voice"><a href="#journal">“The Dhaka Delirium”</a></h3>
+        <p class="j-excerpt">A hundredfold in seventy-five years. Orion’s Session asked what it means to live in the world’s densest city.</p>
+      </article>
+      <article class="j-card j-third tilt">
+        <div class="ph ph-crowd j-img square" role="img" aria-label="A packed room of people sitting close together on the floor, talking and listening"></div>
+        <p class="meta"><span class="tag">Story</span><time datetime="2026-02-10">10 February 2026</time></p>
+        <h3 class="display"><a href="#journal">A year of strangers in one room</a></h3>
+      </article>
+    </div>
+  </section>
+
+  <!-- TWO LINES -->
+  <section class="two-lines gutter" aria-labelledby="two-lines">
+    <h2 id="two-lines" class="sr">A space for music, art, food, and finding your people.</h2>
+    <p class="meta tl-top" aria-hidden="true">A space for music, art, food,</p>
+    <svg class="tl-svg" viewBox="0 0 1440 520" fill="none" aria-hidden="true">
+      <path class="draw" pathLength="1" d="M-20 200 C 160 130 330 160 380 260 C 420 350 300 420 230 360 C 160 300 330 250 450 360 C 540 440 640 470 720 470" />
+      <path class="draw" pathLength="1" d="M1460 60 C 1280 100 1180 10 1080 90 C 980 170 1220 230 1110 320 C 1030 390 900 350 950 290 C 1000 230 1060 400 900 450 C 830 470 770 475 720 470" />
+      <circle cx="720" cy="470" r="9" fill="var(--red)" class="pulse-dot"/>
+    </svg>
+    <p class="voice tl-bottom reveal" aria-hidden="true">and finding your people<span class="red">.</span></p>
+  </section>
+
+  <!-- EXPECT -->
+  <section class="gutter expect" aria-labelledby="expect-title">
+    <p class="meta eyebrow">What to expect <span class="rule-flex"></span></p>
+    <h2 class="display huge" id="expect-title">Your first<br>visit<span class="red">.</span></h2>
+    <div class="steps">
+      <article class="step reveal"><span class="step-n display">01</span><h3>Pick a night</h3><p>Browse the programme and choose a gig, a screening, a reading or a supper. Most nights are free or pay-what-you-can.</p></article>
+      <article class="step reveal"><span class="step-n display">02</span><h3>RSVP and get the address</h3><p>We share the full address when you RSVP. It’s in Nikunja, behind a green, leafy garden entrance.</p></article>
+      <article class="step reveal"><span class="step-n display">03</span><h3>Come as you are</h3><p>Floor rugs, cushions and chairs on request. Arrive curious, sit close, talk to somebody new.</p></article>
+      <article class="step reveal"><span class="step-n display">04</span><h3>Stay, or come back</h3><p>Linger over tea at the café on event days, then keep the conversation going through the journal and the next programme.</p></article>
+    </div>
+  </section>
+
+  <!-- SPACE -->
+  <section class="gutter space" id="space" aria-labelledby="space-title">
+    <div class="space-copy">
+      <p class="meta eyebrow">The space <span class="rule-flex"></span></p>
+      <h2 class="display space-h" id="space-title"><span class="slide-l">Make room</span><span class="slide-r">for your idea<span class="red">.</span></span></h2>
+      <p class="lead">Exhibitions, screenings, supper clubs, sound baths, launches, readings. Hrossho i is available to artists, collectives and people with something to share.</p>
+      <a class="btn btn-red magnet" href="#contact">Enquire about the space <span aria-hidden="true">→</span></a>
+      <dl class="specs">
+        <div><dt class="meta">The room</dt><dd>Brick, tall windows, a canopy of saris</dd></div>
+        <div><dt class="meta">Seating</dt><dd>Floor rugs and cushions; chairs on request</dd></div>
+        <div><dt class="meta">Sound</dt><dd>PA, DJ booth, amps, microphones</dd></div>
+        <div><dt class="meta">Screen</dt><dd>Projector and screen for film nights</dd></div>
+        <div><dt class="meta">Café</dt><dd>Open on selected event days</dd></div>
+        <div><dt class="meta">Outside</dt><dd>A green, leafy garden entrance</dd></div>
+      </dl>
+    </div>
+    <div class="space-visual">
+      <div class="space-main ph ph-courtyard" role="img" aria-label="The courtyard at dusk: blue shuttered doors, hanging aerial roots lit warm against brick, stepping stones through ferns" data-parallax="20"></div>
+      <div class="space-inset ph ph-ritual" role="img" aria-label="A performer kneels by candles and a banana leaf on the tiled floor" data-parallax="-25"></div>
+      <a class="link-draw inside" href="#space">Inside the space ↗</a>
+    </div>
+  </section>
+
+  <!-- ABOUT / FAQ -->
+  <section class="gutter about" id="about" aria-labelledby="about-title">
+    <div class="about-head">
+      <p class="meta eyebrow">About <span class="rule-flex"></span></p>
+      <h2 class="display huge" id="about-title">Art is<br>resistance<span class="red">.</span></h2>
+      <p class="lead">Hrossho i began as a living room for people who make things and people who love what they make. It has grown into a home for gigs, supper clubs, readings and healing circles, with a second home in Jamaica, Queens, New York.</p>
+    </div>
+    <div class="faq">
+      <details class="reveal"><summary>Is it free to come?</summary><p>Many nights are free. Some, like the Table, have a ticket price which is listed on the event page.</p></details>
+      <details class="reveal"><summary>Where exactly is it?</summary><p>Nikunja, Dhaka. We send the full address when you RSVP.</p></details>
+      <details class="reveal"><summary>Can I host my own event?</summary><p>Yes. Artists, collectives and anyone with something to share can enquire. Tell us the idea, the date you have in mind and roughly how many people.</p></details>
+      <details class="reveal"><summary>Do I need to speak Bangla?</summary><p>No. The programme moves between Bangla and English, and everyone is welcome.</p></details>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="gutter contact-inner">
+      <h2 class="display huge" id="contact-title">Say<br>hello<span class="red">.</span></h2>
+      <form class="news" id="newsForm" novalidate>
+        <label for="email" class="meta">Get the programme in your inbox</label>
+        <div class="news-row">
+          <input id="email" type="email" placeholder="you@email.com" autocomplete="email" required>
+          <button class="btn btn-red" type="submit">Notify me →</button>
+        </div>
+        <p class="meta form-msg" id="formMsg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="gutter foot-grid">
+    <div class="foot-brand">
+      <p class="display">Art is<br>resistance<span class="red">.</span></p>
+      <p class="mute-d">A space for music, art, food, and finding your people.</p>
+    </div>
+    <div>
+      <h2 class="meta mute-d">Visit</h2>
+      <address>Nikunja, Dhaka<br>Bangladesh</address>
+      <p class="meta mute-d small">Full address sent when you RSVP.</p>
+      <p class="also">Also in Jamaica, Queens<br>New York</p>
+    </div>
+    <div>
+      <h2 class="meta mute-d">Say hello</h2>
+      <ul>
+        <li><a class="link-draw" href="mailto:hrosshoi@gmail.com">hrosshoi@gmail.com</a></li>
+        <li><a class="link-draw" href="https://www.instagram.com/hrossho.i/" target="_blank" rel="noopener">Instagram ↗<span class="sr"> (opens in a new tab)</span></a></li>
+        <li><a class="link-draw" href="#space">Host something here</a></li>
+      </ul>
+    </div>
+    <nav aria-label="Footer">
+      <h2 class="meta mute-d">Explore</h2>
+      <ul>
+        <li><a class="link-draw" href="#programme">What’s on</a></li>
+        <li><a class="link-draw" href="#table">Table</a></li>
+        <li><a class="link-draw" href="#journal">Journal</a></li>
+        <li><a class="link-draw" href="#space">The space</a></li>
+        <li><a class="link-draw" href="#about">About</a></li>
+        <li><a class="link-draw" href="#contact">Get in touch</a></li>
+      </ul>
+    </nav>
+    <svg viewBox="0 0 181 971" class="foot-flame" aria-hidden="true"><use href="#flame"/></svg>
+  </div>
+  <div class="gutter foot-bar">
+    <button class="meta motion-btn" id="motionBtn" type="button" aria-pressed="false"><span class="dot"></span><span id="motionLabel">Motion on · pause</span></button>
+    <ul class="meta legal">
+      <li><a class="link-draw" href="#">Privacy</a></li>
+      <li><a class="link-draw" href="#">House guidelines</a></li>
+      <li><a class="link-draw" href="#">Accessibility</a></li>
+      <li class="mute-d">© 2026 Hrossho i</li>
+    </ul>
+  </div>
+</footer>
+
+<div class="burst" id="burst" aria-hidden="true"></div>
+<script src="script.js"></script>
+</body>
+</html>
